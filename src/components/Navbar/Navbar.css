@@ -1,0 +1,43 @@
+.navbar {
+  padding: 5px 0;
+  display: flex;
+  background-color: #173334;
+  align-items: center;
+}
+.navbar .logo {
+  width: 50px;
+  height: 60px;
+  margin-left: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+.navbar p {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: cursive;
+}
+
+.navbar-right {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 20px;
+  gap: 20px;
+  color: white;
+  font-size: 18px;
+}
+
+.navbar .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid gold;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+
+.button-link-navbar {
+  color: white; /* Mengubah warna menjadi biru */
+}

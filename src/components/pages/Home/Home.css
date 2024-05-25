@@ -1,0 +1,403 @@
+.navbar {
+  padding: 5px 0;
+  display: flex;
+  background-color: #173334;
+  align-items: center;
+}
+.navbar .logo {
+  width: 40px;
+  height: 55px;
+  margin-left: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+/* .navbar p {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+} */
+
+/* navbar */
+.kula {
+  color: gold;
+}
+.pedia {
+  color: white;
+}
+
+.navbar-right {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  margin-right: 20px;
+  gap: 20px;
+  color: white;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+.navbar .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid gold;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+
+.header {
+  height: 47vw;
+  margin: 0px auto;
+  background-color: rgb(242, 183, 33);
+  background-size: contain;
+  position: relative;
+}
+
+.header-contents {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1vw;
+  max-width: 50%;
+  bottom: 14%;
+  left: 6vw;
+  margin-top: 20px;
+  animation: fadeIn 3s;
+
+}
+
+.header-contents h2 {
+  font-weight: 900;
+  font-size: max(4.5vw, 30px);
+}
+
+.header-contents p {
+ font-size: 18;
+}
+
+.header-contents button {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 50px;
+  font-size: max(1vw, 13px);
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 1vw 1.3vw;
+}
+
+.header-contents .medsos {
+  width: 90px;
+  height: 60px;
+}
+
+.header-img {
+  display: flex;
+  justify-content: flex-end; 
+  margin-left: 37%;
+  margin-right: auto;
+  animation: fadeIn 3s;
+}
+
+.header-img .imgheader {
+  margin-top: 17%;
+  margin-right: 40px;
+  /* width: px; */
+}
+
+.aboutUs {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.aboutUs-img {
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 3s;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.aboutUs-img img {
+  width: 100%;
+}
+
+.aboutUs-contents {
+  width: 70%;
+  margin-top: 100px;
+}
+
+.aboutUs-contents h2 {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(105, 55, 55);
+  text-align: center;
+  animation: fadeIn 3s;
+  margin-left: 1em;
+  font-family: cursive;
+}
+
+.aboutUs-contents p {
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 2em;
+  color: black;
+  text-align: justify;
+  gap: 20px;
+  animation: fadeIn 3s;
+  margin-right: 5em;
+  margin-left: 7em;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 90px;
+}
+
+.categories-contents {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  width: max-content;
+}
+.categories-contents h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 28px;
+  font-family: cursive;
+  color: rgb(105, 55, 55);
+  margin-top: 30px;
+}
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 2em;
+  margin-right: 40px;
+}
+
+.card-categories {
+  width: 300px;
+  height: 230px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-image: url("src/assets/lalapan.jpg");
+  background-size: cover; /* Untuk memastikan gambar latar belakang mencakup seluruh area elemen */
+  background-position: center; /* Untuk memposisikan gambar latar belakang di tengah elemen */
+  padding: 20px; /* Untuk memberikan ruang di sekitar konten */
+  margin-left: 50px;
+  border-radius: 25px;
+}
+
+.card-categories h3 {
+  color: goldenrod;
+  font-size: 30px;
+  text-align: start;
+  font-weight: 900;
+  line-height: 2.2em;
+}
+
+.card-categories p {
+  color: white;
+  font-size: 13px;
+  text-align: start;
+  font-weight: 900;
+  line-height: 1.5em;
+  margin-bottom: 3em;
+  font-family: Quicksand;
+}
+
+.card-categories button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.button-linkk {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FCB419;
+  color: #ffffff;
+  border: none;
+  border-radius: 35px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  font-family: "Bream hand", cursive !important;
+  margin-left: 13%;
+}
+
+.button-links {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FCB419;
+  color: #ffffff;
+  border: none;
+  border-radius: 35px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  font-family: "Bream hand", cursive !important;
+}
+
+.button-link:hover {
+  background-color: darkorange;
+}
+
+.button-links:hover {
+  background-color: darkorange;
+}
+
+/* footer {
+  
+  background-color: #173334;
+  text-align: center;
+  padding: 30px;
+  margin-top: 100px;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+footer p {
+  color: gold;
+  font-family: cursive;
+  text-align: start;
+}
+
+footer h1 {
+  margin-right: 50%;
+  margin-top: 10px;
+  text-align: start;
+  color: white;
+  font-size: 15px;
+  font-family:'Trebuchet MS';
+}
+
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-left: 47em;
+  gap: 16px;
+  color: white;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 300;
+  text-align: justify;
+  margin-bottom: 1em;
+} */
+
+.footer {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: max-content;
+  background-color: #29211b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.footer-extras {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin-bottom: 0em;
+  
+}
+
+.footer-extras .extras1 {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  padding: 0em 0em 4em 0;
+}
+
+.footer-extras .extras2 {
+  width: 50%;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  gap: 7em;
+  font-size: 17px;
+  
+}
+
+.footer-extras .extras2 .extra {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0em 1em 1em 1em;
+  list-style-type: none;
+}
+
+.footer-extras h4 {
+  color: #e1d8cf;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 2.5;
+  margin: 0;
+}
+
+.extras img {
+  margin: 0 0 0 0;
+}
+
+.extras1 p {
+  color: #848484;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 2;
+  margin: 0;
+}
+
+.footer-link {
+  color: #848484;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 2.5;
+  margin: 0;
+}
+
+.footer p {
+  color: gold;
+  font-family: cursive;
+  text-align: start;
+}
+
+.footer h1 {
+  margin-right: 50%;
+  margin-top: 10px;
+  text-align: start;
+  color: white;
+  font-size: 15px;
+  font-family:'Inter';
+}
+
+.footer-copr {
+  color: #848484;
+  font-size: 15px;
+  margin-top: 2em;
+}
