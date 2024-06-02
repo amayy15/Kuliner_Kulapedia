@@ -1,0 +1,145 @@
+.product-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px; /* Sesuaikan dengan lebar sidebar yang diinginkan */
+  background-color: #f4f4f4; /* Warna latar belakang untuk sidebar */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content {
+  flex: 1; /* Konten akan mengisi sisa ruang yang tersedia */
+  padding: 20px;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+
+}
+
+.btn-create {
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff; /* Warna biru */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-create:hover {
+  background-color: #0056b3; /* Warna biru lebih gelap saat hover */
+}
+
+/* styles.css */
+
+/* Gaya umum untuk tombol */
+button {
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1px;
+}
+
+/* Tombol Edit */
+.btn-edit {
+  background-color: #4caf50; /* Warna hijau */
+  color: white;
+  padding: 10px 20px; /* Tambahkan padding untuk tampilan tombol */
+  text-align: center; /* Pusatkan teks */
+  text-decoration: none; /* Hilangkan garis bawah default pada link */
+  display: inline-block; /* Buat elemen inline-block untuk penampilan tombol */
+  border-radius: 4px; /* Tambahkan radius untuk sudut */
+  transition: background-color 0.3s; /* Animasi untuk transisi warna */
+  margin-bottom: 1px;
+}
+
+.btn-edit:hover {
+  background-color: #45a049; /* Warna hijau lebih gelap saat hover */
+}
+
+/* Tombol Delete */
+.btn-delete {
+  background-color: #f44336; /* Warna merah */
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #d32f2f; /* Warna merah lebih gelap saat hover */
+}
+
+.create-product {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-product h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* styles.css */
+.image-container {
+  width: 128px; /* Sesuaikan ukuran sesuai kebutuhan */
+  height: 128px; /* Sesuaikan ukuran sesuai kebutuhan */
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; /* Untuk memastikan gambar penuh di dalam kontainer */
+}
+
